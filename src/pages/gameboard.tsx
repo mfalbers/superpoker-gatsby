@@ -5,7 +5,7 @@ import { PageProps, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Game = (props: PageProps) => (
+const Gameboard = (props: PageProps) => (
   <Layout>
     <SEO title="Super Poker Gameboard" />
     <h1>Hi from the second page</h1>
@@ -14,4 +14,4 @@ const Game = (props: PageProps) => (
   </Layout>
 )
 
-export default Game
+export default Gameboard
