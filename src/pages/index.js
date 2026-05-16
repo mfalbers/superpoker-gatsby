@@ -168,11 +168,12 @@ const IndexPage = () => (
         font-size: 18px;
         color: rgba(240,201,110,0.55);
         z-index: 1;
+        font-family: 'Playfair Display', Georgia, serif;
       }
-      .sp-card-back[data-suit="spade"]::after   { content: '♠\FE0E'; }
-      .sp-card-back[data-suit="diamond"]::after { content: '♦\FE0E'; }
-      .sp-card-back[data-suit="club"]::after    { content: '♣\FE0E'; }
-      .sp-card-back[data-suit="heart"]::after   { content: '♥\FE0E'; }
+      .sp-card-back[data-suit="spade"]::after   { content: '♠'; }
+      .sp-card-back[data-suit="diamond"]::after { content: '♦'; }
+      .sp-card-back[data-suit="club"]::after    { content: '♣'; }
+      .sp-card-back[data-suit="heart"]::after   { content: '♥'; }
 
       .sp-teaser h2 {
         font-family: 'Playfair Display', serif;
