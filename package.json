@@ -26,6 +26,18 @@
     "gatsby"
   ],
   "packageManager": "pnpm@11.1.2",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "core-js",
+      "core-js-pure",
+      "es5-ext",
+      "gatsby-cli",
+      "lmdb",
+      "msgpackr-extract",
+      "sharp"
+    ]
+  },
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
