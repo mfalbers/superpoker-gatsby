@@ -14,7 +14,7 @@ const IndexPage = () => (
         <div className="row p-4">
             <div className="col-sm">
                 <div>
-                    <h4 className="alert-heading">Let's do some poker planning!</h4>
+                    <h2 className="alert-heading">Let's do some poker planning!</h2>
                     <p>Grab your team and let's estimate some work.</p>
                     <p> Not familiar with Agile Poker Planning?</p>
                     <ul>
